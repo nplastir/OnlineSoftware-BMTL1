@@ -100,4 +100,4 @@ In order to tunnel through ssh you need to change the network configuration in y
 - In Host SOCKS put localhost and port 8080 (socks v5)
 
 For example here is a screenshot with the correct settings for Firefox
-![image](https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/f2f85d7c-c136-43ea-8c3c-96dbdf2a6217)
+![image](https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/f2f85d7c-c136-43ea-8c3c-96dbdf2a6217 | width=100)
