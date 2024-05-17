@@ -101,7 +101,5 @@ In order to tunnel through ssh you need to change the network configuration in y
 
 For example here is a screenshot with the correct settings for Firefox
 
-<img src="https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/64a17b89-ee0f-4e60-9989-607598dae36e" width="400">
-
-![image](https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/64a17b89-ee0f-4e60-9989-607598dae36e)
+<img src="https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/64a17b89-ee0f-4e60-9989-607598dae36e" width="450">
 
