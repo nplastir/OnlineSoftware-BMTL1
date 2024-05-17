@@ -39,7 +39,7 @@ mkdir build && cd build && cmake3 .. # prepare for compilation
 make -j 8 && make package # compile and produce rpms
 ```
 
-In order for the herd plugin to work, it is also required to install a low level library from this [repository](https://gitlab.cern.ch/bmtl1-dev/bmtl1-sw). First, go back to working folder
+In order for the herd plugin to work, it is also required to install a low level library from this [repository](https://gitlab.cern.ch/bmtl1-dev/bmtl1-sw). First, go back to work directory
 ```
 cd DT/OnlineSW/
 ```
@@ -102,4 +102,13 @@ In order to tunnel through ssh you need to change the network configuration in y
 For example here is a screenshot with the correct settings for Firefox
 
 <img src="https://github.com/nplastir/OnlineSoftware-BMTL1/assets/138513470/64a17b89-ee0f-4e60-9989-607598dae36e" width="450">
+
+When the correct settings have been selected, open a new terminal and do:
+```
+ ssh -X -D 8080 fanae35.geol.uniovi.es
+```
+
+You now have access to the shep server. 
+
+Information on how to register boards and use the shep UI can be found [here](https://gitlab.cern.ch/cms-tracker-phase2-onlinesw/deployment-and-documentation/-/blob/v0.4-shepherd/Shep%20User%20Guide.md)
 
