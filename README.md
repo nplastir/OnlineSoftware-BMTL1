@@ -8,7 +8,7 @@ For development purposes, a local VM has been set up. In order to access it (if 
 ssh -XY [username]@fanae35.geol.uniovi.es
 ```
 
-NOTE: After the first log in, you can also set up the remote connection in VS Code but the OS version of the VM is not supported. 
+**NOTE:** After the first log in, you can also set up the remote connection in VS Code but the OS version of the VM is not supported. 
 
 ## Setup
 
@@ -17,7 +17,7 @@ Once you have logged in for the first time, you need to set up some things, star
 mkdir DT/OnlineSW/
 cd DT/OnlineSW/
 ```
-NOTE: The creation of a folder like the above is a neccessity for the following steps and should not be skipped
+**NOTE:** The creation of a folder like the above is a neccessity for the following steps and should not be skipped
 
 Now we are ready to set up the herd plugin, inside the above folder, that is available [here](https://gitlab.cern.ch/cms-cactus/phase2/software/plugins/bmtl1). Clone this repository:
 - with SSH
@@ -28,7 +28,7 @@ git clone ssh://git@gitlab.cern.ch:7999/cms-cactus/phase2/software/plugins/bmtl1
 ```
 git clone https://gitlab.cern.ch/cms-cactus/phase2/software/plugins/bmtl1.git
 ```
-NOTE: If for some reason you cannot clone the above repository, it is very likely that a gitlab token is needed. More info about the tokens can be found [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) 
+**NOTE:** If for some reason you cannot clone the above repository, it is very likely that a gitlab token is needed. More info about the tokens can be found [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) 
 
 Once the repository is cloned, build it with the following instructions 
 ```
@@ -112,3 +112,8 @@ You now have access to the shep server.
 
 Information on how to register boards and use the shep UI can be found [here](https://gitlab.cern.ch/cms-tracker-phase2-onlinesw/deployment-and-documentation/-/blob/v0.4-shepherd/Shep%20User%20Guide.md)
 
+
+## Useful links
+------
+- [Here](https://cms-l1t-phase2.docs.cern.ch/index.html) you can find the technical coordination & online software documentation for the phase-2 level-1 trigger
+- More information about shep & herd can be found [here](https://gitlab.cern.ch/cms-tracker-phase2-onlinesw/deployment-and-documentation/-/tree/v0.4-shepherd?ref_type=heads#running-shep)
